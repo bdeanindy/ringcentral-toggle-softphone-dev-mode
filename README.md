@@ -30,9 +30,12 @@ Script to simplify toggling RingCentral Desktop Softphone between production and
     ```
     source ~/.profile
     ```
-6. Now you are ready to start using this script
+6. Now you are ready to start using this script:
 
-## Usage
+* To turn your soft phone on for use with your RingCentral Sandbox account, from the terminal issue the command `rcsand`
+* To turn your soft phone on for use with your RingCentral Production account, from the terminal issue the command `rcprod`
+
+## What is happening under the hood
 
 This utility provides three functions for developers working with the RingCentral Platform and their Desktop Softphone:
 
