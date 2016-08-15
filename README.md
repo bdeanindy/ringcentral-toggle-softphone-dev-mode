@@ -32,8 +32,10 @@ Script to simplify toggling RingCentral Desktop Softphone between production and
     ```
 6. Now you are ready to start using this script:
 
+* Logout of your desktop soft phone
 * To turn your soft phone on for use with your RingCentral Sandbox account, from the terminal issue the command `rcsand`
 * To turn your soft phone on for use with your RingCentral Production account, from the terminal issue the command `rcprod`
+* Login to your desktop soft phone using either sandbox user/production user accounts respectfully
 
 ## What is happening under the hood
 
