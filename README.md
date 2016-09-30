@@ -23,8 +23,10 @@ Script to simplify toggling RingCentral Desktop Softphone between production and
 4. Create an alias to the executable with proper parameters
     ```
     # In .profile (or your preferred location for aliases) add a new line
+    
     alias rcprod="$HOME/bin/rcmode.sh production"
-    alias rcdev="$HOME/bin/rcmode.sh"
+    
+    alias rcsand="$HOME/bin/rcmode.sh"
     ```
 5. Re-initialize your shell
     ```
